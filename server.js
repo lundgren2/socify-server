@@ -49,15 +49,11 @@ app.get('/callback', function(req, res) {
       refresh_token = body.refresh_token;
 
     if (!error && response.statusCode === 200) {
-      console.log(response.statusCode);
-
       let options = {
         url: 'https://api.spotify.com/v1/me',
         headers: { Authorization: 'Bearer ' + access_token },
         json: true,
       };
-
-      console.log(refresh_token);
 
       res.redirect(
         uri +
