@@ -1,6 +1,6 @@
 # Socify server
 
-This server uses to authenticate to Spotify API through OAuth2.
+Server to authenticate to Spotify API through OAuth2 with CORS support.
 
 For more information: [https://developer.spotify.com/web-api/authorization-guide/#authorization_code_flow](https://developer.spotify.com/web-api/authorization-guide/#authorization_code_flow)
 
@@ -8,6 +8,11 @@ For more information: [https://developer.spotify.com/web-api/authorization-guide
 
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://yarnpkg.com/lang/en/docs/install/#mac-stable)
+
+### Features
+
+- Login
+- Refresh access token
 
 ## Instructions
 
