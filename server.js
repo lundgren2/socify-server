@@ -87,7 +87,6 @@ app.get('/refresh_token', function(req, res) {
         new Buffer(
           process.env.CLIENT_ID + ':' + process.env.CLIENT_SECRET
         ).toString('base64'),
-      'Access-Control-Allow-Origin': '*',
     },
     form: {
       grant_type: 'refresh_token',
