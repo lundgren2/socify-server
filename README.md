@@ -16,6 +16,10 @@ For more information: [https://developer.spotify.com/web-api/authorization-guide
 
 ## Instructions
 
-1. `$ git clone` this repoo
+1. `$ git clone` this repo
 2. `$ yarn` to install all dependencies
 3. `$ yarn start` to run the server
+
+## Socify Client
+
+Repo: [https://github.com/lundgren2/spotify-devx2018](https://github.com/lundgren2/spotify-devx2018)
